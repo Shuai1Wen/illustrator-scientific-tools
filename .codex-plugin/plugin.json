@@ -1,0 +1,35 @@
+{
+  "name": "illustrator-scientific-tools",
+  "version": "0.1.0+codex.20260805132634",
+  "description": "Create, inspect, refine, preflight, and export editable scientific figures directly in Adobe Illustrator through a local MCP server.",
+  "author": {
+    "name": "shuai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "adobe-illustrator",
+    "scientific-figure",
+    "vector-graphics",
+    "mcp",
+    "preflight"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Illustrator Scientific Tools",
+    "shortDescription": "Build editable scientific figures directly in Adobe Illustrator.",
+    "longDescription": "Controls stable Adobe Illustrator through a pinned local MCP server. It creates and edits vector geometry, text, layers, artboards, and linked images; enforces scientific-figure typography and layer rules; reviews staged exports; saves native AI files; and runs delivery preflight checks.",
+    "developerName": "shuai",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create an editable scientific figure directly in Adobe Illustrator.",
+      "Rebuild this reference figure in Illustrator and run preflight.",
+      "Inspect and refine the open Illustrator scientific figure."
+    ],
+    "brandColor": "#FF9A00"
+  },
+  "mcpServers": "./.mcp.json"
+}

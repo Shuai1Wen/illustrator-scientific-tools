@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "illustrator": {
+      "command": "npx",
+      "args": ["-y", "illustrator-mcp-server@1.5.2"]
+    }
+  }
+}

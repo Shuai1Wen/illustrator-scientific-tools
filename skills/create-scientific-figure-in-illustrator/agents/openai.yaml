@@ -1,0 +1,4 @@
+interface:
+  display_name: "Illustrator Scientific Figure"
+  short_description: "Create and preflight editable scientific figures in Illustrator"
+  default_prompt: "Use $create-scientific-figure-in-illustrator to build an editable scientific figure directly in Adobe Illustrator."
